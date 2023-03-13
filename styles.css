@@ -41,6 +41,13 @@ main {
   max-height: 100%;
 }
 
+.card-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px;
+}
+
 .card-description-text {
   text-align: center;
   margin-top: 0;
@@ -48,13 +55,6 @@ main {
   font-size: 16px;
   color: hsl(228, 4%, 57%);
   line-height: 25px;
-}
-
-.card-content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 30px;
 }
 
 .selected-plan-container {
